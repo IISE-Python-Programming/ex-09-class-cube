@@ -15,7 +15,7 @@
 - 또한, 생성된 인스턴스를 `print` 함수에 넘겨주면 아래와 같은 정보가 출력됩니다.
   ```python
   >>> print(cube1)
-  변의 길이: 4, 부피: 64
+  Edge Length: 4, Volume: 64
   ```
 위와 같은 방식으로 활용할 수 있는 `Cube` 클래스를 작성하는 것이 이번 과제입니다. 클래스가 필요로 하는 속성, 함수들을 스스로 정의해서 구현해보기 바랍니다.
 
@@ -23,12 +23,12 @@
 ```python
 >>> small_cube = Cube(2)
 >>> print(small_cube)
-변의 길이: 2, 부피: 8
+Edge Length: 2, Volume: 8
 >>> print(small_cube.volume())
 8
 >>> big_cube = Cube(10)
 >>> print(big_cube.volume())
 1000
 >>> print(big_cube)
-변의 길이: 10, 부피: 1000
+Edge Length: 10, Volume: 1000
 ```
